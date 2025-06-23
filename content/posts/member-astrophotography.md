@@ -6,7 +6,7 @@ categories: ["Photography"]
 tags: ["astrophotography", "showcase", "members"]
 featured: true
 thumbnail:
-  url: img/Amrita_astroimaging_20240226/students_listening.jpg
+  url: img/students_listening.jpg
 ---
 
 ## BAS Member Astrophotography Gallery
