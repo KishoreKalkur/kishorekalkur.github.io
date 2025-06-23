@@ -1,0 +1,73 @@
+# Hugo automatically reads environment variables with HUGO_ prefix
+# For example: HUGO_BASEURL overrides baseURL below
+baseURL = 'https://bas.org.in/'
+languageCode = 'en-us'
+title = 'Bangalore Astronomical Society'
+theme = 'github.com/gethinode/hinode'
+copyright = "Copyright © 2025 Bangalore Astronomical Society."
+canonifyURLs = false
+enableRobotsTXT = true
+
+[module]
+  [[module.imports]]
+    path = 'github.com/gethinode/hinode'
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+
+[params]
+  title = "Bangalore Astronomical Society"
+  description = "Promoting amateur astronomy and science education"
+  logo = "BASlogo.svg"
+  mainSections = ["blog", "posts"]
+  [params.style]
+    primary = "#2c5282"      # Darker blue-grey for better contrast (was #4a5568)
+    secondary = "#5a6c7d"    # Balanced grey with good readability (was #718096)
+    success = "#2f855a"      # Green for success - more standard (was #5a67d8)
+    info = "#3182ce"         # True blue for information (was #667eea)
+    warning = "#d69e2e"      # Darker amber for better contrast (was #ed8936)
+    danger = "#c53030"       # Darker red for better contrast (was #e53e3e)
+    light = "#f7fafc"        # Off-white (unchanged)
+    dark = "#1a202c"         # Dark blue-grey, easier on eyes (was #2d3748)
+    themeColor = "#2c5282"   # Matches primary
+    linkColor = "#457cca"
+    darkMode = true
+    customCSS = ["css/custom.css"]
+  [params.author]
+    name = "Bangalore Astronomical Society"
+    email = "contact@bas.org.in"
+  [params.social]
+    facebook = "bangaloreastro"
+    twitter = "bangaloreastro"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 20
+  [[menu.main]]
+    name = "Resources"
+    url = "/resources/"
+    weight = 30
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 40
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 50
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.highlight]
+    style = "dracula" 

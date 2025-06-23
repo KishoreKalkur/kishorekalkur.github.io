@@ -1,0 +1,124 @@
+# Hugo default output directory
+/public/
+/resources/
+
+# Hugo build lock file
+.hugo_build.lock
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+*.sublime-workspace
+*.sublime-project
+
+# Node dependencies (if using npm/yarn)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+env.config
+
+# Hugo module dependencies
+_vendor/
+
+# Generated documentation files
+/IMAGE_USAGE_GUIDE.md
+/SCSS_OVERRIDE_NOTES.md
+
+# Local development files
+*.local
+
+# Build artifacts
+dist/
+build/
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Mac specific
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux specific
+*~
+
+# Backup files
+*.backup
+*.bk
+*.orig
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary directories
+temp/
+tmp/ 

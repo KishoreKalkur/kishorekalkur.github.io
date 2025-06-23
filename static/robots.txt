@@ -1,0 +1,9 @@
+# Robots.txt for BAS Website (Development)
+# Disallow all crawlers during development phase
+
+User-agent: *
+Disallow: /
+Crawl-delay: 86400
+
+# Sitemap location (when ready for production)
+# Sitemap: https://bas.org.in/sitemap.xml 

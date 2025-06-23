@@ -1,0 +1,20 @@
+# Authors configuration for BAS Website
+# Add author details here for blog post attribution
+
+bas_team:
+  name: "BAS Team"
+  social:
+    - icon: "fas fa-envelope"
+      url: "mailto:contact@bas.org.in"
+    - icon: "fab fa-facebook"
+      url: "https://www.facebook.com/bas.org.in/"
+    - icon: "fab fa-instagram"
+      url: "https://www.instagram.com/bas.org.in"
+    - icon: "fab fa-x-twitter"
+      url: "https://x.com/b_a_s"
+
+kishore_s:
+  name: "Kishore S"
+  social:
+    - icon: "fab fa-github"
+      url: "https://github.com/KishoreKalkur"
