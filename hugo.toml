@@ -5,7 +5,7 @@ languageCode = 'en-us'
 title = 'Bangalore Astronomical Society'
 theme = 'github.com/gethinode/hinode'
 copyright = "Copyright © 2025 Bangalore Astronomical Society."
-canonifyURLs = false
+canonifyURLs = true
 enableRobotsTXT = true
 
 [module]
@@ -34,7 +34,7 @@ enableRobotsTXT = true
     dark = "#1a202c"         # Dark blue-grey, easier on eyes (was #2d3748)
     themeColor = "#2c5282"   # Matches primary
     linkColor = "#457cca"
-    darkMode = true
+    darkMode = "auto"
     customCSS = ["css/custom.css"]
   [params.author]
     name = "Bangalore Astronomical Society"
