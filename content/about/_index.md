@@ -46,6 +46,7 @@ Our primary communication channel for:
 - Real-time discussions
 - Equipment advice
 - Observation planning
+- To join our Telegram group fill out this [Google form](https://docs.google.com/forms/d/e/1FAIpQLSfQfHJZrjbMnR2NjynJzYL633iTWfnHTAEEgdaN9MR30jheDA/viewform)
 
 ### Google Group
 For longer discussions and detailed content:
@@ -67,7 +68,7 @@ BAS is entirely volunteer-driven. We welcome help in:
 
 For any queries, reach out to us:
 - Email: contact@bas.org.in
-- Telegram: Join our group (link in homepage)
-- Social Media: Follow us on Twitter and Facebook (@bangaloreastro)
+- Telegram: To join our Telegram group fill out this [Google form](https://docs.google.com/forms/d/e/1FAIpQLSfQfHJZrjbMnR2NjynJzYL633iTWfnHTAEEgdaN9MR30jheDA/viewform)
+- Social Media: Follow us on [Twitter](https://x.com/b_a_s) and [Instagram](https://www.instagram.com/bas.org.in)
 
 *Join us in exploring the wonders of the universe!*
