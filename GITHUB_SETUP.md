@@ -1,11 +1,11 @@
 # GitHub Repository Setup Instructions
 
-## Repository Name: `kishore-bas-org-site-hugo`
+## Repository Name: `kishorekalkur.github.io`
 
 ### Option 1: Using GitHub Web Interface
 
 1. Go to https://github.com/new
-2. Repository name: `kishore-bas-org-site-hugo`
+2. Repository name: `kishorekalkur.github.io` (MUST be exactly this name)
 3. Description: "Bangalore Astronomical Society website built with Hugo"
 4. Set to **Public**
 5. **DO NOT** initialize with README, .gitignore, or license (we already have them)
@@ -18,15 +18,18 @@
 gh auth login
 
 # Then create the repository
-gh repo create kishore-bas-org-site-hugo --public --description "Bangalore Astronomical Society website built with Hugo" --source=. --remote=origin --push
+gh repo create kishorekalkur.github.io --public --description "Bangalore Astronomical Society website built with Hugo" --source=. --remote=origin --push
 ```
 
 ### After Creating the Repository
 
-Since you already have the remote set up, just push the code:
+If you created the repository via web interface, run these commands:
 
 ```bash
-# Push the code
+# Add the remote repository
+git remote add origin https://github.com/KishoreKalkur/kishorekalkur.github.io.git
+
+# Push your code
 git push -u origin main
 ```
 
