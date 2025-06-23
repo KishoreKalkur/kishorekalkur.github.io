@@ -7,7 +7,7 @@ tags: ["beginners", "equipment", "binoculars"]
 categories: ["guides"]
 author: "BAS Team"
 thumbnail:
-  url: img/Challakere_20240224/name_board.jpg
+  url: img/Challakere_20240224/scary_eyes_binocs.jpg
 ---
 
 Binoculars are an excellent first step into the world of astronomy. They're portable, easy to use, and can show you many celestial objects. Here's why binoculars are great for beginners:
@@ -26,6 +26,9 @@ Binoculars are an excellent first step into the world of astronomy. They're port
 - The Milky Way
 - Bright planets like Jupiter and its moons
 - Many bright deep sky objects
+
+
+{{< image src="img/Amrita_astroimaging_20240226/chakru_with_stellarium.jpg" caption="Stellarium" class="img-fluid rounded shadow" wrapper="my-4" >}}
 
 ## Recommended Models
 

@@ -5,7 +5,7 @@ description: "Getting started with astrophotography - from smartphone to advance
 categories: ["Photography"]
 tags: ["astrophotography", "beginner", "photography"]
 thumbnail:
-  url: img/Challakere_20240224/name_board.jpg
+  url: img/Amrita_astroimaging_20240226/chakru_pallavi_discussion.jpg
 ---
 
 ## Introduction
@@ -30,6 +30,8 @@ Astrophotography combines the wonders of astronomy with the art of photography. 
    - Specialized cameras
 
 ## Basic Techniques
+
+{{< image src="img/Amrita_astroimaging_20240226/chakru_hand_waving.jpg" caption="Basic Techniques" class="img-fluid rounded shadow" wrapper="my-4" >}}
 
 ### Smartphone Photography
 

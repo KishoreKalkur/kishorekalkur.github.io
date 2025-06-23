@@ -5,7 +5,7 @@ description: "A comprehensive guide to help you select your first telescope"
 categories: ["Equipment"]
 tags: ["telescope", "beginner", "equipment"]
 thumbnail:
-  url: img/Challakere_20240224/name_board.jpg
+  url: img/Amrita_astroimaging_20240226/chakru_with_gear.jpg
 ---
 
 ## Introduction
