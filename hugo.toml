@@ -1,6 +1,6 @@
 # Hugo automatically reads environment variables with HUGO_ prefix
 # For example: HUGO_BASEURL overrides baseURL below
-baseURL = 'https://bas.org.in/'
+baseURL = 'https://kishorekalkur.github.io/kishore-bas-org-site-hugo/'
 languageCode = 'en-us'
 title = 'Bangalore Astronomical Society'
 theme = 'github.com/gethinode/hinode'
