@@ -4,14 +4,74 @@ This is the official website for the Bangalore Astronomical Society (BAS), built
 
 ## 🚀 Quick Start
 
+### ⚠️ Hugo Version Compatibility Notice
+
+**IMPORTANT**: This project requires exactly **Hugo Extended v0.142.0**. Newer versions (v0.143.0+) have breaking changes that cause template errors. If you encounter build errors, ensure you're using the exact version specified below.
+
 ### Prerequisites
 
-1. **Hugo Extended** (v0.142.0 or higher) - **Required**
-   - macOS: `brew install hugo`
-   - Windows: Download from [Hugo releases](https://github.com/gohugoio/hugo/releases)
-   - Linux: `snap install hugo --channel=extended`
-2. **Git** - **Required**
+1. **Hugo Extended v0.142.0** - **Required** (⚠️ **IMPORTANT**: Use exactly v0.142.0 for compatibility)
+   
+   **Why this specific version?** The project uses the Hinode theme which has compatibility issues with newer Hugo versions. Version 0.142.0 is the last known stable version that works correctly with all theme components.
 
+   #### Installation Instructions by Platform:
+
+   **🍎 macOS (using Homebrew):**
+   ```bash
+   # If you have Hugo installed, remove it first
+   brew uninstall hugo
+   
+   # Install specific version (if available in brew)
+   brew install hugo@0.142.0
+   
+   # If specific version not available, download manually:
+   wget https://github.com/gohugoio/hugo/releases/download/v0.142.0/hugo_extended_0.142.0_macOS-universal.tar.gz
+   tar -xzf hugo_extended_0.142.0_macOS-universal.tar.gz
+   sudo mv hugo /usr/local/bin/
+   rm hugo_extended_0.142.0_macOS-universal.tar.gz
+   ```
+
+   **🐧 Linux (Ubuntu/Debian):**
+   ```bash
+   # Remove any existing Hugo installation
+   sudo apt remove hugo
+   sudo rm -f /usr/local/bin/hugo
+   
+   # Download and install Hugo v0.142.0 Extended
+   wget https://github.com/gohugoio/hugo/releases/download/v0.142.0/hugo_extended_0.142.0_linux-amd64.deb
+   sudo dpkg -i hugo_extended_0.142.0_linux-amd64.deb
+   rm hugo_extended_0.142.0_linux-amd64.deb
+   ```
+
+   **🪟 Windows:**
+   ```powershell
+   # Option 1: Using Chocolatey (if available)
+   choco install hugo-extended --version=0.142.0
+   
+   # Option 2: Manual installation
+   # 1. Download: https://github.com/gohugoio/hugo/releases/download/v0.142.0/hugo_extended_0.142.0_windows-amd64.zip
+   # 2. Extract to a folder (e.g., C:\Hugo\)
+   # 3. Add C:\Hugo\ to your PATH environment variable
+   ```
+
+   **🔄 Alternative for all platforms:**
+   ```bash
+   # Download from GitHub releases directly
+   # Visit: https://github.com/gohugoio/hugo/releases/tag/v0.142.0
+   # Choose the appropriate file for your platform:
+   # - hugo_extended_0.142.0_macOS-universal.tar.gz (macOS)
+   # - hugo_extended_0.142.0_linux-amd64.deb (Linux Debian/Ubuntu)
+   # - hugo_extended_0.142.0_linux-amd64.tar.gz (Linux other)
+   # - hugo_extended_0.142.0_windows-amd64.zip (Windows)
+   ```
+
+   **✅ Verify Installation:**
+   ```bash
+   hugo version
+   # Should output: hugo v0.142.0+extended
+   ```
+
+2. **Git** - **Required**
    - [Download Git](https://git-scm.com/)
 
 3. **Go** (v1.19 or higher) - **Required for Hugo modules**
@@ -201,7 +261,7 @@ For deployment to various platforms:
 1. Connect your GitHub repository
 2. Build command: `hugo --minify`
 3. Publish directory: `public`
-4. Environment variable: `HUGO_VERSION = 0.142.0`
+4. Environment variable: `HUGO_VERSION = 0.142.0` ⚠️ **CRITICAL**: Must be exactly 0.142.0
 
 #### Generic Server
 
@@ -265,8 +325,9 @@ Available ratios: `1x1`, `3x2`, `4x3`, `16x9`, `21x9`
 
 1. **"command not found: hugo"**
 
-   - Ensure Hugo Extended is installed: `hugo version`
-   - Should show: `hugo v0.142.0+extended`
+   - Ensure Hugo Extended v0.142.0 is installed: `hugo version`
+   - Should show exactly: `hugo v0.142.0+extended`
+   - If you see a different version, reinstall using the platform-specific instructions above
 
 2. **Module errors**
 
@@ -305,21 +366,24 @@ Available ratios: `1x1`, `3x2`, `4x3`, `16x9`, `21x9`
 
 ### Verifying Installation
 
-Run this checklist:
+Run this checklist to ensure everything is set up correctly:
 
 ```bash
-# Check Hugo version (should be extended)
+# Check Hugo version (MUST be exactly v0.142.0+extended)
 hugo version
+# Expected output: hugo v0.142.0+extended linux/amd64 BuildDate=...
 
 # Check Go installation
 go version
 
-# Verify modules
+# Verify modules (may show warnings for mod-leaflet, this is expected)
 hugo mod graph
 
-# Test build
+# Test build (should complete without errors)
 hugo --gc --minify
 ```
+
+⚠️ **If hugo version shows anything other than v0.142.0**, reinstall using the platform-specific instructions above.
 
 ## 🤝 Contributing
 
