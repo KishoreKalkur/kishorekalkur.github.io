@@ -1,6 +1,6 @@
 module bas-website-clone
 
-go 1.23.5
+go 1.23
 
 require (
 	github.com/airbnb/lottie-web v5.12.2+incompatible // indirect
